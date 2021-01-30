@@ -1,3 +1,7 @@
+img {
+    width: 100%;
+    height: auto;
+}
 body {
     margin: 0;
     font-family: sans-serif;
@@ -10,10 +14,6 @@ body {
     background-size: cover;
     padding: 15px;
     text-align: center;
-}
-img {
-    width: 100%;
-    height: auto;
 }
 .navigation {
    background-color: gray;
