@@ -1,3 +1,20 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.hero-container {
+    background-image: url("https://media2.giphy.com/media/GhGPnlp2Gl3TG/giphy.gif?cid=ecf05e478a66e49f1012db433ba137506d68bb4d5fb98f08&rid=giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+}
+.image {
+    width: 100%;
+    height: auto;
+}
 .navigation {
    background-color: gray;
    text-align: left;
@@ -5,7 +22,7 @@
 }
 .navigation ul {
     padding: 5px;
-    margin: 1px;
+    margin: 3px;
     list-style-type: none;
 }
 .navigation ul li {
@@ -13,4 +30,5 @@
 }
 .navigation ul li a {
     color: white;
+    font-size: 24px;
 }
